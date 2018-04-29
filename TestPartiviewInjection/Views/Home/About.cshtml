@@ -1,0 +1,39 @@
+﻿@inject TestPartiviewInjection.Services.IViewRenderService _viewRenderService
+
+@{
+    ViewData["Title"] = "About";
+}
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+<p>Use this area to provide additional information.</p>
+@*<p>##PARTIALVIEW##</p>*@
+@{ 
+    var htmlContent = @_viewRenderService.RenderHTML();
+}
+@*@Html.Raw(string.Format("Hello {0} Goodbye !!!", Html.Partial("_contactus")))*@
+@*@Html.Partial("_contactus")*@
+@*@Html.Raw(Html.Partial("_contactus"))*@
+
+@Html.Raw(htmlContent)
+
+@section Scripts{ 
+<script type="text/javascript">
+    replacement();
+    function replacement(){
+    $.ajax({
+                url: '@Url.Action("ContactUs", "Home")',
+                type: 'GET',
+                success: function (response) {
+                    if (response != null) {
+                        $("body").html($("body").html().replace(/##PARTIALVIEW##/g, response));
+                    }
+                },
+                error: function (response) {
+                }
+            });
+    }
+
+</script>
+
+}

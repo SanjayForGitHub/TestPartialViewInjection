@@ -1,0 +1,11 @@
+G:\TestProjects\TestPartialViewInjection\TestPartiviewInjection\bin\Debug\netcoreapp2.0\TestPartiviewInjection.deps.json
+G:\TestProjects\TestPartialViewInjection\TestPartiviewInjection\bin\Debug\netcoreapp2.0\TestPartiviewInjection.runtimeconfig.json
+G:\TestProjects\TestPartialViewInjection\TestPartiviewInjection\bin\Debug\netcoreapp2.0\TestPartiviewInjection.runtimeconfig.dev.json
+G:\TestProjects\TestPartialViewInjection\TestPartiviewInjection\bin\Debug\netcoreapp2.0\TestPartiviewInjection.dll
+G:\TestProjects\TestPartialViewInjection\TestPartiviewInjection\bin\Debug\netcoreapp2.0\TestPartiviewInjection.pdb
+G:\TestProjects\TestPartialViewInjection\TestPartiviewInjection\obj\Debug\netcoreapp2.0\TestPartiviewInjection.csprojResolveAssemblyReference.cache
+G:\TestProjects\TestPartialViewInjection\TestPartiviewInjection\obj\Debug\netcoreapp2.0\TestPartiviewInjection.csproj.CoreCompileInputs.cache
+G:\TestProjects\TestPartialViewInjection\TestPartiviewInjection\obj\Debug\netcoreapp2.0\TestPartiviewInjection.AssemblyInfoInputs.cache
+G:\TestProjects\TestPartialViewInjection\TestPartiviewInjection\obj\Debug\netcoreapp2.0\TestPartiviewInjection.AssemblyInfo.cs
+G:\TestProjects\TestPartialViewInjection\TestPartiviewInjection\obj\Debug\netcoreapp2.0\TestPartiviewInjection.dll
+G:\TestProjects\TestPartialViewInjection\TestPartiviewInjection\obj\Debug\netcoreapp2.0\TestPartiviewInjection.pdb
